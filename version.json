@@ -1,11 +1,50 @@
 {
-  "app": "OMNITAG",
-  "version": "1.0.0",
-  "minimumVersion": "1.0.0",
-  "mandatory": false,
-  "releaseDate": "2026-08-04",
-  "downloadUrl": "",
-  "changelog": [
-    "Primera versión pública."
-  ]
+  "app": {
+    "name": "OMNITAG",
+    "id": "com.haip.omnitag",
+    "publisher": "HAIP Studio",
+    "website": "https://github.com/TU_USUARIO/OMNITAG-UPDATES"
+  },
+
+  "release": {
+    "version": "1.0.0",
+    "build": 1,
+    "releaseDate": "2026-08-04",
+    "channel": "stable",
+    "mandatory": false,
+    "minimumSupportedVersion": "1.0.0"
+  },
+
+  "download": {
+    "windows": {
+      "enabled": true,
+      "url": "https://github.com/TU_USUARIO/OMNITAG-UPDATES/releases/download/v1.0.0/OMNITAG-Setup-1.0.0.exe",
+      "size": 28456321,
+      "sha256": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+
+    "android": {
+      "enabled": true,
+      "url": "https://github.com/TU_USUARIO/OMNITAG-UPDATES/releases/download/v1.0.0/OMNITAG-1.0.0.apk",
+      "size": 18234567,
+      "sha256": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+    }
+  },
+
+  "features": [
+    "Primera versión pública.",
+    "Sistema de gestión de etiquetas.",
+    "Corrección de errores menores."
+  ],
+
+  "messages": {
+    "title": "Nueva actualización disponible",
+    "body": "Hay una nueva versión de OMNITAG con mejoras y correcciones importantes."
+  },
+
+  "links": {
+    "releaseNotes": "https://github.com/TU_USUARIO/OMNITAG-UPDATES/releases/tag/v1.0.0",
+    "homepage": "https://github.com/TU_USUARIO/OMNITAG-UPDATES",
+    "support": "https://github.com/TU_USUARIO/OMNITAG-UPDATES/issues"
+  }
 }
