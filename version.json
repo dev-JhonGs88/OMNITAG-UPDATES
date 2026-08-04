@@ -1,1 +1,11 @@
-version.json
+{
+  "app": "OMNITAG",
+  "version": "1.0.0",
+  "minimumVersion": "1.0.0",
+  "mandatory": false,
+  "releaseDate": "2026-08-04",
+  "downloadUrl": "",
+  "changelog": [
+    "Primera versión pública."
+  ]
+}
